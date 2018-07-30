@@ -2,10 +2,26 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("bg.png");
+}
+
+h1 {
+    line-height: 150%;
+    font-size: 32px;
+}
+
 .header-bar {
     width: 100%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(178, 225, 243);
+    text-align: center;
+    padding: 20px;
+    border-bottom: .5px solid rgb(189, 185, 185);
+}
+
+#add-name {
+    margin-top: 10px;
 }
 
 .container {
@@ -16,9 +32,15 @@
 
 .button-bar {
     width: 25%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#new-buttons {
+    width: 60%;
     display: flex;
     flex-direction: column;
-    background-color: white;
 }
 
 .img-bar {
