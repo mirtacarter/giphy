@@ -45,5 +45,6 @@ h1 {
 
 .img-bar {
     width: 75%;
-
+    display: flex;
+    flex-flow: row wrap;
 }
