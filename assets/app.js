@@ -60,7 +60,8 @@ function displayGifs (){
         var newDiv = $("<div class='gifs'>");
         var p = $("<p>");
         // show rating
-        p.text("Rating " + results[i].rating);
+        p.text("Rating: " + results[i].rating);
+     
         // variables for img tag, still image URL, and animated image URL
         var gifs = $("<img>");
         var stillImg = results[i].images.fixed_height_still.url;
